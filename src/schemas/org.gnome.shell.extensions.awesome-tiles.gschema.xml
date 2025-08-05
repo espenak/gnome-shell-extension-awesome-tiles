@@ -1,13 +1,13 @@
 <schemalist gettext-domain="awesome-tiles@velitasali.com">
   <schema id="org.gnome.shell.extensions.awesome-tiles" path="/org/gnome/shell/extensions/awesome-tiles/">
     <key name="gap-size" type="i">
-      <default>15</default>
+      <default>1</default>
       <summary>Gap Between Window and Workspace</summary>
       <description>Percentage to leave out as gap when the window in focus is tiled.</description>
     </key>
     <key name="shortcut-tile-window-to-center" type="as">
       <default>
-        <![CDATA[['<Super>KP_5']]]>
+        <![CDATA[['<Alt><Super>g']]]>
       </default>
       <summary>Tile Window to Center</summary>
       <description>
@@ -16,7 +16,7 @@
     </key>
     <key name="shortcut-tile-window-to-left" type="as">
       <default>
-        <![CDATA[['<Super>KP_4']]]>
+        <![CDATA[['<Alt><Super>h']]]>
       </default>
       <summary>Tile Window to Left</summary>
       <description>
@@ -25,7 +25,7 @@
     </key>
     <key name="shortcut-tile-window-to-right" type="as">
       <default>
-        <![CDATA[['<Super>KP_6']]]>
+        <![CDATA[['<Alt><Super>l']]]>
       </default>
       <summary>Tile Window to Right</summary>
       <description>
@@ -52,7 +52,7 @@
     </key>
     <key name="shortcut-tile-window-to-top-right" type="as">
       <default>
-        <![CDATA[['<Super>KP_9']]]>
+        <![CDATA[['<Alt><Super>k']]]>
       </default>
       <summary>Tile Window to Top Right</summary>
       <description>
@@ -79,7 +79,7 @@
     </key>
     <key name="shortcut-tile-window-to-bottom-right" type="as">
       <default>
-        <![CDATA[['<Super>KP_3']]]>
+        <![CDATA[['<Alt><Super>j']]]>
       </default>
       <summary>Tile Window to Bottom Right</summary>
       <description>
@@ -121,7 +121,7 @@
       </description>
     </key>
     <key name="enable-window-animation" type="b">
-      <default>true</default>
+      <default>false</default>
       <summary>Enable window animation</summary>
       <description>
         Add animation on windows.
@@ -153,12 +153,12 @@
       <description>Apply the additional bottom gap only on the main screen.</description>
     </key>
     <key name="tiling-steps-center" type="s">
-      <default><![CDATA['1, 0.75, 0.5']]></default>
+      <default><![CDATA['1, 0.75, 0.5, 0.35']]></default>
       <summary>Center Tiling Steps</summary>
       <description>Steps on first and successive key presses when tiling.</description>
     </key>
     <key name="tiling-steps-side" type="s">
-      <default><![CDATA['0.5, 0.65, 0.35']]></default>
+      <default><![CDATA['0.5, 0.65, 0.35, 0.2']]></default>
       <summary>Side Tiling Steps</summary>
       <description>Steps on first and successive key presses when tiling.</description>
     </key>
